@@ -1,0 +1,33 @@
+<div id="<%= dom_id blog %>">
+  <p>
+    <strong>Title:</strong>
+    <%= blog.title %>
+  </p>
+
+  <p>
+    <strong>Body:</strong>
+    <%= blog.body %>
+  </p>
+
+</div>
+<div class="card" id="<%= dom_id blog %>">
+  <%#<img src="..." class="card-img-top" alt="...">#%>
+  <div class="card-body">
+    <h5 class="card-title">
+    <%= blog.title %>
+    </h5>
+    <p class="card-text">Some User Comment Section.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Comment 1</li>
+    <li class="list-group-item">Comment 2</li>
+    <li class="list-group-item">Comment 3</li>
+  </ul>
+  <div class="card-body">
+    <%= link_to "All Comments", blogs_path, class: "btn btn-primary" %>
+    <%= link_to "View", blog_path(blog), class: "btn btn-primary" %>
+    <%= link_to "Edit", edit_blog_path(blog), class: "btn btn-primary" %>
+    <%= button_to "Delete", blog, method: :delete, class: "btn btn-primary" %>
+
+  </div>
+</div>
