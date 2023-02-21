@@ -10,7 +10,7 @@ Things you may want to cover:
 * System dependencies
 
 * Configuration
-
+Use the Zip File, because the cache would not fit on here
 * Database creation
 
 * Database initialization
