@@ -20,5 +20,5 @@ In order to run, you must intialize the local server, then once running go to ht
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
+Google how to install ruby on rails on your operating system
 * ...
