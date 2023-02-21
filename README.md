@@ -21,4 +21,5 @@ In order to run, you must intialize the local server, then once running go to ht
 
 * Deployment instructions
 Google how to install ruby on rails on your operating system
+Code was followed by https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails
 * ...
